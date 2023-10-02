@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.13.182:9000/</sonar.host.url>
+		<sonar.host.url>172.31.63.77:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>Location#1</sonar.password> 
+		<sonar.password>admin</sonar.password> 
 		
 		
 
@@ -97,13 +97,13 @@
         <repository>
             <id>nexus</id>
             <name>Womm Releases Nexus Repository</name>
-            <url>http://172.31.4.227:8081/repository/USAA-Release/</url>
+            <url>http://172.31.51.159:8081/repository/USAA-Release/</url>
         </repository>
 		
         <snapshotRepository>
             <id>nexus</id>
             <name>Woma Snapshot Nexus Repository</name>
-            <url>http://172.31.4.227:8081/repository/USAA-Snapshot/</url>
+            <url>http://172.31.51.159:8081/repository/USAA-Snapshot/</url>
         </snapshotRepository>
     </distributionManagement>	
 	
