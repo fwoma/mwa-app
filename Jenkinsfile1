@@ -2,10 +2,10 @@ pipeline{
 
 agent any
 
-//tools{
-//maven 'maven3.6.3'
+tools{
+maven 'maven3.6.3'
 
-//}
+}
 
 triggers{
 pollSCM('* * * * *')
